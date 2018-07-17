@@ -5,30 +5,49 @@
 <link rel="stylesheet" href="CalculatorFunctions.css">
 </head>
   <body>
-    <div class="calculatorBase">
-      <div class="numbers">
-        <button class="numZero" id="nums"> 0 </button>
-        <button class="numOne" id="nums"> 1 </button>
-        <button class="numTwo" id="nums"> 2 </button>
-        <button class="numThree" id="nums"> 3 </button>
-        <button class="numFour" id="nums"> 4 </button>
-        <button class="numFive" id="nums"> 5 </button>
-        <button class="numSix" id="nums"> 6 </button>
-        <button class="numSeven" id="nums"> 7 </button>
-        <button class="numEight" id="nums"> 8 </button>
-        <button class="numNine" id="nums"> 9 </button>
-        <button class="numTen" id="nums"> 10 </button>
-        <button class="numDecimal" id="nums"> . </button>
-      </div>
-      <div class="actions">
-        <button class="add" id="actionElems"> + </button>
-        <button class="subtract" id="actionElems"> - </button>
-        <button class="multiply" id="actionElems"> x </button>
-        <button class="divide" id="actionElems"> ÷ </button>
-        <button class="equals" id="actionElems"> = </button>
-        <button class="clear" id="actionElems"> AC </button>
-        <button class="posNeg" id="actionElems"> +/- </button>
-      </div>
-    </div>
+    <table class="calculatorButtons">
+
+      <tr class="viewer">
+      <td><input type="text" name="display" id="display" disabled></td> <!-- INPUT SECTION OF CALCULATOR -->
+    </tr>
+
+      <tr class="firstRow">
+      <th><button  id="actionSub"> C </button></th>
+      <th><button  id="actionSub"> +/- </button></th>
+      <th><button  id="actionSub"> % </button></th>
+      <th><button  id="actionMain"> ÷ </button></th>
+    </tr>
+
+    <tr class="secondRow">
+      <td><button  id="number"> 7 </button></td>
+      <td><button  id="number"> 8 </button></td>
+      <td><button  id="number"> 9 </button></td>
+      <td><button  id="actionMain"> x </button></td>
+    </tr>
+
+    <tr class="thirdRow">
+      <td><button  id="number"> 4 </button></td>
+      <td><button  id="number"> 5 </button></td>
+      <td><button  id="number"> 6 </button></td>
+      <td><button  id="actionMain"> - </button></td>
+    </tr>
+
+    <tr class="fourthRow">
+      <td><button  id="number"> 1 </button></td>
+      <td><button  id="number"> 2 </button></td>
+      <td><button  id="number"> 3 </button></td>
+      <td><button id="actionMain"> + </button></td>
+    </tr>
+
+    <tr class="fifthRow">
+      <td><button  id="number"> 0 </button></td>
+      <td><button  id="number"> . </button></td>
+      <td><button  class="equals" id="actionMain"> = </button></td>
+    </tr>
+
+
+
+
+
   </body>
 </html>

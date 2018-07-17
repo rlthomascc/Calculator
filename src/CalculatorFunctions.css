@@ -2,61 +2,46 @@
 /* MAIN COLORS */
 
 body {
-  background-color: #2B2B2B;
+  background-color: #AAAAAA;
   font-family: "Arial";
   margin: 50px;
   float: center;
 }
 
-/*CALCULATOR BASE ELEMENTS */
 
-.calculatorBase {
-  background-color: #1E1E1E;
-  border: 3px solid #EDE8EC;
-  width: 25em;
-  float: center;
+table {
+  background-color: #4C4C4C;
+  border: 3px solid white;
+  width: 17%;
+  padding: 15px;
+  text-align: left;
 }
 
-
-/* ACTION BUTTONS */
-
-.actions /* DIV */ {
-  font-family: "Arial";
-  font-size: 20px;
-  color: #1E1E1E;
-  padding: 10px 30px 20px 12px;
-  width: 2em;
-}
-
-#actionElems {
-  font-family: "Arial";
+#actionMain {
   background-color: #C0392B;
-  font-size: 20px;
+    color: #EDE8EC;
+}
+
+
+#number {
+  background-color: #1E1E1E;
   color: #EDE8EC;
-  width: 3em;
-  height: 3em;
-  border-radius: 20%;
 }
 
-
-/*NUMBER ELEMENTS DESIGN */
-
-.numbers /* DIV */ {
-  font-family: "Arial";
-  font-size: 20px;
-  color: #1E1E1E;
-  margin: 2px;
-  padding: 10px 10px 10px 10px;
-  width: 2em;
+#actionSub {
+  background-color: #2B2B2B;
+  color: #EDE8EC;
 }
 
-#nums {
-  font-family: "Arial";
-  background-color: #EDE8EC;
-  font-size: 20px;
-  color: black;
-  float: center;
-  margin: 1px;
-  width: 2em;
-  border-radius: 20%;
+button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.viewer {
+  width: 20%;
 }
