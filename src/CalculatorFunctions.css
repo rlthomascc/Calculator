@@ -1,0 +1,62 @@
+
+/* MAIN COLORS */
+
+body {
+  background-color: #2B2B2B;
+  font-family: "Arial";
+  margin: 50px;
+  float: center;
+}
+
+/*CALCULATOR BASE ELEMENTS */
+
+.calculatorBase {
+  background-color: #1E1E1E;
+  border: 3px solid #EDE8EC;
+  width: 25em;
+  float: center;
+}
+
+
+/* ACTION BUTTONS */
+
+.actions /* DIV */ {
+  font-family: "Arial";
+  font-size: 20px;
+  color: #1E1E1E;
+  padding: 10px 30px 20px 12px;
+  width: 2em;
+}
+
+#actionElems {
+  font-family: "Arial";
+  background-color: #C0392B;
+  font-size: 20px;
+  color: #EDE8EC;
+  width: 3em;
+  height: 3em;
+  border-radius: 20%;
+}
+
+
+/*NUMBER ELEMENTS DESIGN */
+
+.numbers /* DIV */ {
+  font-family: "Arial";
+  font-size: 20px;
+  color: #1E1E1E;
+  margin: 2px;
+  padding: 10px 10px 10px 10px;
+  width: 2em;
+}
+
+#nums {
+  font-family: "Arial";
+  background-color: #EDE8EC;
+  font-size: 20px;
+  color: black;
+  float: center;
+  margin: 1px;
+  width: 2em;
+  border-radius: 20%;
+}
