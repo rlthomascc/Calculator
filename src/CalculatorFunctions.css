@@ -17,6 +17,11 @@ table {
   text-align: left;
 }
 
+#viewer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #actionMain {
   background-color: #C0392B;
     color: #EDE8EC;
