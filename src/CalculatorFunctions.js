@@ -1,32 +1,78 @@
 
 
-//The following functions are for Multiplication, Division, Addition, and Subtraction.
-
-//These functions are only available to handle 2 numbers at a time.
-
-function addition(arr){
-return arr.reduce(function(i, elem){
-return i + elem
-}, 0);
+function run1(){
+	document.case.display.value += "1"
 };
 
-function subtraction(num1, num2){
-return num1 - num2
+function run2(){
+  document.case.display.value += "2"
 };
 
-function multiplication(arr){
-return arr.reduce(function(i, elem){
-return elem * i
-}, 1);
+function run3(){
+  document.case.display.value += "3"
 };
 
-function division(arr){
-return arr.reduce(function(i, elem){
-return elem / i
-}, 0);
+function run4(){
+  document.case.display.value += "4"
 };
 
-var add = console.log(addition([]));
-var subtract = console.log(subtraction());
-var multiply = console.log(multiplication([]));
-var divide = console.log(division());
+function run5(){
+  document.case.display.value += "5"
+};
+
+function run6(){
+  document.case.display.value += "6"
+};
+
+function run7(){
+  document.case.display.value += "7"
+};
+
+function run8(){
+  document.case.display.value += "8"
+};
+
+function run9(){
+  document.case.display.value += "9"
+};
+
+function run0(){
+  document.case.display.value += "0"
+};
+
+function runMultiply(){
+  document.case.display.value += "*"
+};
+
+function runDivide(){
+  document.case.display.value += "/"
+};
+
+function runAdd(){
+  document.case.display.value += "+"
+};
+
+function runSubtract(){
+  document.case.display.value += "-"
+};
+
+function runDecimal(){
+  document.case.display.value += "."
+};
+
+function runClear(){
+  document.case.display.value = ""
+};
+
+function runNegative(){
+  document.case.display.value += "-"
+}
+
+function runPercent(){
+  document.case.display.value /= 100 
+}
+
+function runEquals() {
+	var equals = eval(document.case.display.value)
+	document.case.display.value = equals;
+}

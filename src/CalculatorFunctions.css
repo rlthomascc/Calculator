@@ -1,48 +1,40 @@
-
-/* MAIN COLORS */
-
 body {
-  background-color: #AAAAAA;
-  font-family: "Arial";
-  margin: 50px;
-  float: center;
+  width: 900px;
+  background-color: black;
+  display: grid;
+  margin-left: 350px;
+}
+
+form {
+  margin: 20px;
+  background-color: #232423;
+  text-align: center;
+  padding: 50px;
+
+}
+
+#display {
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.number {
+  color: black;
+  background-color: #6BFF2D;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.operator {
+  color: #6BFF2D;
+  background-color: black;
+  font-size: 20px;
+  margin: 2px;
 }
 
 
-table {
-  background-color: #4C4C4C;
-  border: 3px solid white;
-  width: 17%;
-  padding: 15px;
-  text-align: left;
-}
-
-#viewer {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#actionMain {
-  background-color: #C0392B;
-    color: #EDE8EC;
-}
-
-
-#number {
-  background-color: #1E1E1E;
-  color: #EDE8EC;
-}
-
-#actionSub {
-  background-color: #2B2B2B;
-  color: #EDE8EC;
-}
-
-button {
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
+h1 {
+  text-align: center;
+  color: #6BFF2D;
+  font-family: 'Arial';
 }
