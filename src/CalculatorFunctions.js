@@ -69,7 +69,7 @@ function runNegative(){
 }
 
 function runPercent(){
-  document.case.display.value /= 100 
+  document.case.display.value /= 100
 }
 
 function runEquals() {
